@@ -28,34 +28,32 @@ Tech Stack :
 - Database: SQLite
 - NLP/Parsing: Regex, Keyword Matching Basic intent detection
 
-Getting Started
+### Getting Started
 
 Follow the steps below to run this project on your local machine.
 
-### Prerequisites
+Prerequisites
 
 - Python 3.8 or higher
 - pip (Python package manager)
 
-### Installation
+Installation
 
-- Clone the repository:
-
-   git clone https://github.com/Sudarshan007AS/Library-Chat-Bot.git
+- Clone the repository:<br>
+   git clone https://github.com/Sudarshan007AS/Library-Chat-Bot.git<br>
    cd Library-Chat-Bot
    
-- (Optional) Create and activate a virtual environment
+- (Optional) Create and activate a virtual environment:<br>
+python -m venv venv<br>
+source venv\Scripts\activate
 
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-- Install the required dependencies
+- Install the required dependencies: <br>
 pip install -r requirements.txt
 
-- Start the application
+- Start the application: <br>
 python app.py
 
-- Open your browser and go to
+- Open your browser and go to: <br>
 http://localhost:5000
 
 
