@@ -45,4 +45,11 @@ The chatbot:
 - Matches the query using keyword detection  
 - Queries the SQLite database  
 - Returns a list of books by Dan Brown  
-- Offers options to borrow or get more info  
+- Offers options to borrow or get more info
+
+## 👤 Author
+
+**Sudarshan A S**  <br>
+[LinkedIn](https://www.linkedin.com/in/sudarshanas) • [GitHub](https://github.com/Sudarshan007AS)  
+
+---
