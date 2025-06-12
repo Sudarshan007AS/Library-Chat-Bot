@@ -28,7 +28,7 @@ Tech Stack :
 - Database: SQLite
 - NLP/Parsing: Regex, Keyword Matching Basic intent detection
 
-## 🔍 System Workflow
+## System Workflow
 
 1. **User Login**  
    - Student or Admin login to access role-specific features  
