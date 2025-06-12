@@ -28,32 +28,82 @@ Tech Stack :
 - Database: SQLite
 - NLP/Parsing: Regex, Keyword Matching Basic intent detection
 
-### Getting Started
+## 🔍 System Workflow
 
-Follow the steps below to run this project on your local machine.
+1. **User Login**  
+   - Student or Admin login to access role-specific features  
 
-Prerequisites
+2. **Natural Query Handling**  
+   - Chatbot interprets user messages using regex and keyword logic  
 
-- Python 3.8 or higher
-- pip (Python package manager)
+3. **Database Interaction**  
+   - Performs search, borrow, return, and update operations on the SQLite database  
 
-Installation
+4. **Admin Panel Access**  
+   - Admins can manage records and generate reports from a dedicated dashboard  
 
-- Clone the repository:<br>
-   git clone https://github.com/Sudarshan007AS/Library-Chat-Bot.git<br>
-   cd Library-Chat-Bot
-   
-- (Optional) Create and activate a virtual environment:<br>
-python -m venv venv<br>
-source venv\Scripts\activate
+## Getting Started
 
-- Install the required dependencies: <br>
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Sudarshan007AS/Library-Chat-Bot.git
+cd Library-Chat-Bot
+```
+
+### 2. (Optional) Create and activate a virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-- Start the application: <br>
+### 4. Run the application
+
+```bash
 python app.py
+```
 
-- Open your browser and go to: <br>
-http://localhost:5000
+Visit `http://localhost:5000` in your browser.
+
+##  Project Structure
+
+- `app.py`: Main Flask backend  
+- `chatbot.py`: Chat logic and intent detection  
+- `database.py`: SQLite helper functions  
+- `templates/`: HTML pages for chatbot and admin views  
+- `static/`: CSS and JS assets  
+
+## Example Use Case
+
+A student logs in and types:  
+> “Search books by author Dan Brown”
+
+The chatbot:
+- Matches the query using keyword detection  
+- Queries the SQLite database  
+- Returns a list of books by Dan Brown  
+- Offers options to borrow or get more info  
+
+## Future Enhancements
+
+- Add voice recognition using Speech-to-Text  
+- Implement sentiment-based book feedback  
+- Improve NLP using spaCy or Transformer models  
+- Add email reminders for due dates  
+- Enable multiple admin roles and permissions  
+
+## 👤 Author
+
+**Sudarshan A S**  
+[LinkedIn](https://www.linkedin.com/in/sudarshanas) • [GitHub](https://github.com/Sudarshan007AS)  
+
+---
 
 
